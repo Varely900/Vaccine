@@ -24,6 +24,7 @@ namespace Vaccine
 
 
             Console.WriteLine("Enter the Province");
+
             string Province = Console.ReadLine();
             Console.WriteLine("Your Province is: " + Province);
         }
