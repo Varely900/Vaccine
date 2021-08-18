@@ -6,33 +6,26 @@ namespace Vaccine
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ID");
-            
-            Console.WriteLine("Surname");
-            Console.WriteLine("First Name");
-            Console.WriteLine("Date of Birth");
-            Console.WriteLine("Province");
-
+            Console.WriteLine("Enter your ID");
             int ID = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("ID Number: " + ID);
+
+            Console.WriteLine("Enter your Surname: ");
             string Surname = Console.ReadLine();
+            Console.WriteLine("Surname" + Surname);
+           
+            Console.WriteLine(" Enter First Name");
             string FirstName = Console.ReadLine();
+            Console.WriteLine("First Name: " + FirstName);
+
+            Console.WriteLine("Enter Date of Birth");
             string DateofBirth = Console.ReadLine();
+            Console.WriteLine("Date of Birth: " + DateofBirth);
+
+
+            Console.WriteLine("Enter the Province");
             string Province = Console.ReadLine();
-
-            Console.WriteLine("Enter your ID: " + ID);
-
-
-
-            Console.WriteLine("Enter your Surname: " + Surname);
-
-
-
-            Console.WriteLine("Enter your First Name: " + FirstName);
-
-
-
-            Console.WriteLine("Enter your Date of Birth: " + DateofBirth);
-            Console.WriteLine("Enter your Province: " + Province);
+            Console.WriteLine("Your Province is: " + Province);
         }
     }
 }
