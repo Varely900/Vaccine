@@ -7,7 +7,7 @@ namespace Vaccine
         static void Main(string[] args)
         {
             Console.WriteLine("ID");
-            kkk
+            
             Console.WriteLine("Surname");
             Console.WriteLine("First Name");
             Console.WriteLine("Date of Birth");
@@ -20,8 +20,17 @@ namespace Vaccine
             string Province = Console.ReadLine();
 
             Console.WriteLine("Enter your ID: " + ID);
+
+
+
             Console.WriteLine("Enter your Surname: " + Surname);
+
+
+
             Console.WriteLine("Enter your First Name: " + FirstName);
+
+
+
             Console.WriteLine("Enter your Date of Birth: " + DateofBirth);
             Console.WriteLine("Enter your Province: " + Province);
         }
